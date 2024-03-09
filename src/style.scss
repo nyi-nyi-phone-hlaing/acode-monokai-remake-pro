@@ -1,0 +1,280 @@
+/*
+ * .ace-(ThemeName provide in main.js)
+ */
+.ace-monokai-remake-pro {
+  color: #eee; // default color
+  background: #17181a; // background-color of editor container
+  // left side line number area
+  .ace_gutter {
+    color: #8f908a; // for line number color
+    background-color: #222222; //if not added it will be same as editor container
+  }
+
+  // Active line for left side Line number area
+  .ace_gutter-active-line {
+    color: #f92672; // for line number color active line
+    // background-color: ; if not added it will be same as editor container
+  }
+
+  // vertical Line after 80 character if enabled
+  .ace_print-margin {
+    width: 1px;
+    background: #464748;
+  }
+
+  // Cursor color
+  .ace_cursor {
+    color: #66d9ef;
+  }
+
+  // selection
+  .ace_marker-layer .ace_selection {
+    background: #333333;
+    border-radius: 3px;
+    color: #eee;
+  }
+
+  // Multiple cursor's active selection
+  .ace_multiselect .ace_selection.ace_start {
+    box-shadow: 0 0 0px #fff;
+  }
+
+  .ace_marker-layer .ace_step {
+    background: rgb(198, 219, 174);
+  }
+
+  // highlights Matching brackets (Only change border color)
+  .ace_marker-layer .ace_bracket {
+    margin: -1px 0 0 -1px;
+    border: 1px solid #00b2ff;
+  }
+
+  // editor container active line
+  .ace_marker-layer .ace_active-line {
+    border: 1.5px solid #464748;
+    box-sizing: border-box;
+  }
+
+  // next match for the current selected word
+  // try a bit transparent color
+  .ace_marker-layer .ace_selected-word {
+    background-color: rgba(208, 208, 208, 0.1);
+    color: #eee;
+    border-radius: 3px;
+  }
+
+  .ace_invisible {
+    color: #464748;
+  }
+
+  /**
+   * keywords
+   * for example if else 
+   * ID in css
+   */
+  .ace_keyword {
+    color: #f92672;
+  }
+
+  .hljs-keyword {
+    color: #f92672;
+  }
+
+  // example =
+  .ace_keyword.ace_operator {
+    color: #f92672;
+  }
+
+  .ace_constant.ace_language {
+    color: #66d9ef;
+  }
+
+  // numbers
+  .ace_constant.ace_numeric {
+    color: #ae81ff;
+  }
+
+  .ace_constant.ace_character {
+    color: #fd971f;
+  }
+
+  .ace_constant.ace_character.ace_escape {
+    color: #ae81ff;
+  }
+  .ace_constant.ace_language.ace_escape {
+    color: #66d9ef !important;
+  }
+  .ace_string.ace_regexp {
+    color: #ae81ff !important;
+  }
+
+  // excape in regex
+  .ace_constant.ace_other {
+    color: #ae81ff;
+  }
+
+  // const abc = "hello"
+  // abc will have the color
+  .hljs-title {
+    color: #eee;
+  }
+  .ace_identifier {
+    color: #eee;
+  }
+
+  // url() attr() in css
+  .ace_support.ace_function {
+    color: #66d9ef;
+  }
+
+  //in js -> addEventListener etc
+  .ace_support.ace_function.ace_dom {
+    color: #66d9ef; // if not provided it will take color of ace_support.ace_function
+  }
+
+  // in js style, length etc
+  // in css auto, inset, inline-block etc
+  .ace_support.ace_constant {
+    color: #66d9ef;
+  }
+
+  // in js any variable or import starting with uppercase
+  // requires extra syntax highlights plugin
+  .ace_class {
+    color: #a6e22e;
+  }
+
+  // window document Array Object  Math  Uint32Array isNaN
+  .ace_variable.ace_language {
+    color: #fd971f;
+  }
+
+  // in css display, transform, animation etc
+  .ace_support.ace_type {
+    color: #8ceafd;
+  }
+
+  // tag name in html <div>
+  .ace_meta.ace_tag {
+    color: #f92672;
+  }
+
+  // let const var also =>
+  .ace_storage,
+  .ace_storage.ace_type {
+    color: #66d9ef;
+  }
+
+  .ace_invalid {
+    color: #e2e2e2;
+    background-color: #f92672;
+  }
+
+  .ace_invalid.ace_deprecated {
+    color: #e2e2e2;
+    background-color: #ae81ff;
+  }
+
+  // string
+  .ace_string {
+    color: #e7db75;
+  }
+
+  // comment
+  .ace_comment {
+    color: #76715e;
+  }
+
+  // .class name in css
+  .ace_variable {
+    color: #a7e22e;
+  }
+
+  // anything without . or # in css
+  // e.g. body h1
+
+  .ace_constant {
+    color: #f92672;
+  }
+
+  // function parameters (abc) =>
+  .hljs-params,
+  .ace_variable.ace_parameter {
+    color: #fe9720;
+    text-decoration: underline !important;
+    text-decoration-color: #fe9720 !important;
+  }
+
+  // attribute name in html
+  .ace_entity.ace_other.ace_attribute-name {
+    color: #a7e22e;
+  }
+
+  // <> in html
+  .ace_xml-pe.ace_xml,
+  .ace_punctuation.ace_tag {
+    color: #eee;
+  }
+
+  // html tag
+  .ace_tag-name.ace_tag,
+  .ace_entity.ace_name.ace_tag {
+    color: #f92672;
+  }
+
+  .ace_paren {
+    color: hotpink;
+  }
+
+  /**
+   * Don't change indent guide 
+   */
+
+  .ace_indent-guide {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ09NrYAgMjP4PAAtGAwchHMyAAAAAAElFTkSuQmCC)
+      right repeat-y;
+  }
+
+  .ace_indent-guide-active {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC)
+      right repeat-y;
+  }
+
+  /**
+   * All the highlight rules bellow require extra syntax highlight plugin
+  **/
+
+  // innerHTML, classList etc
+  .ace_support.ace_constant.ace_js {
+    color: #fe9720 !important;
+    font-style: italic !important;
+  }
+
+  // all function call in js
+  .ace_entity.ace_name.ace_function {
+    color: #a6e22e;
+    text-decoration: underline !important;
+    text-decoration-color: #a6e22e !important;
+  }
+  .ace_support.ace_constant.ace_css-in-js {
+    color: #fe9720;
+  }
+  .ace_level1 {
+    color: #00ffff !important;
+  }
+  .ace_level2 {
+    color: #ffd700 !important;
+  }
+  .ace_level3 {
+    color: #dc143c !important;
+  }
+  .ace_level4 {
+    color: #ae81ff !important;
+  }
+  .ace_level5 {
+    color: #1787f3 !important;
+  }
+  .ace_level6 {
+    color: #00ff00 !important;
+  }
+}

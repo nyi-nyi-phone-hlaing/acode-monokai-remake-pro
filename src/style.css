@@ -1,0 +1,251 @@
+/*
+ * .ace-(ThemeName provide in main.js)
+ */
+.ace-monokai-remake-pro {
+  color: #eee;
+  background: #17181a;
+  /**
+   * keywords
+   * for example if else 
+   * ID in css
+   */
+  /**
+   * Don't change indent guide 
+   */
+  /**
+   * All the highlight rules bellow require extra syntax highlight plugin
+  **/
+}
+
+.ace-monokai-reamke-pro .ace_gutter {
+  color: #8f908a;
+  background-color: #222222;
+}
+
+.ace-monokai-reamke-pro .ace_gutter-active-line {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_print-margin {
+  width: 1px;
+  background: #464748;
+}
+
+.ace-monokai-reamke-pro .ace_cursor {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_marker-layer .ace_selection {
+  background: #333333;
+  border-radius: 3px;
+  color: #eee;
+}
+
+.ace-monokai-reamke-pro .ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 0px #fff;
+}
+
+.ace-monokai-reamke-pro .ace_marker-layer .ace_step {
+  background: #c6dbae;
+}
+
+.ace-monokai-reamke-pro .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #00b2ff;
+}
+
+.ace-monokai-reamke-pro .ace_marker-layer .ace_active-line {
+  border: 1.5px solid #464748;
+  box-sizing: border-box;
+}
+
+.ace-monokai-reamke-pro .ace_marker-layer .ace_selected-word {
+  background-color: rgba(208, 208, 208, 0.1);
+  color: #eee;
+  border-radius: 3px;
+}
+
+.ace-monokai-reamke-pro .ace_invisible {
+  color: #464748;
+}
+
+.ace-monokai-reamke-pro .ace_keyword {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .hljs-keyword {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_keyword.ace_operator {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_language {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_numeric {
+  color: #ae81ff;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_character {
+  color: #fd971f;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_character.ace_escape {
+  color: #ae81ff;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_language.ace_escape {
+  color: #66d9ef !important;
+}
+
+.ace-monokai-reamke-pro .ace_string.ace_regexp {
+  color: #ae81ff !important;
+}
+
+.ace-monokai-reamke-pro .ace_constant.ace_other {
+  color: #ae81ff;
+}
+
+.ace-monokai-reamke-pro .hljs-title {
+  color: #eee;
+}
+
+.ace-monokai-reamke-pro .ace_identifier {
+  color: #eee;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_function {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_function.ace_dom {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_constant {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_class {
+  color: #a6e22e;
+}
+
+.ace-monokai-reamke-pro .ace_variable.ace_language {
+  color: #fd971f;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_type {
+  color: #8ceafd;
+}
+
+.ace-monokai-reamke-pro .ace_meta.ace_tag {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_storage,
+.ace-monokai-reamke-pro .ace_storage.ace_type {
+  color: #66d9ef;
+}
+
+.ace-monokai-reamke-pro .ace_invalid {
+  color: #e2e2e2;
+  background-color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_invalid.ace_deprecated {
+  color: #e2e2e2;
+  background-color: #ae81ff;
+}
+
+.ace-monokai-reamke-pro .ace_string {
+  color: #e7db75;
+}
+
+.ace-monokai-reamke-pro .ace_comment {
+  color: #76715e;
+}
+
+.ace-monokai-reamke-pro .ace_variable {
+  color: #a7e22e;
+}
+
+.ace-monokai-reamke-pro .ace_constant {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .hljs-params,
+.ace-monokai-reamke-pro .ace_variable.ace_parameter {
+  color: #fe9720;
+  text-decoration: underline !important;
+  text-decoration-color: #fe9720 !important;
+}
+
+.ace-monokai-reamke-pro .ace_entity.ace_other.ace_attribute-name {
+  color: #a7e22e;
+}
+
+.ace-monokai-reamke-pro .ace_xml-pe.ace_xml,
+.ace-monokai-reamke-pro .ace_punctuation.ace_tag {
+  color: #eee;
+}
+
+.ace-monokai-reamke-pro .ace_tag-name.ace_tag,
+.ace-monokai-reamke-pro .ace_entity.ace_name.ace_tag {
+  color: #f92672;
+}
+
+.ace-monokai-reamke-pro .ace_paren {
+  color: hotpink;
+}
+
+.ace-monokai-reamke-pro .ace_indent-guide {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ09NrYAgMjP4PAAtGAwchHMyAAAAAAElFTkSuQmCC)
+    right repeat-y;
+}
+
+.ace-monokai-reamke-pro .ace_indent-guide-active {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC)
+    right repeat-y;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_constant.ace_js {
+  color: #fe9720 !important;
+  font-style: italic !important;
+}
+
+.ace-monokai-reamke-pro .ace_entity.ace_name.ace_function {
+  color: #a6e22e;
+  text-decoration: underline !important;
+  text-decoration-color: #a6e22e !important;
+}
+
+.ace-monokai-reamke-pro .ace_support.ace_constant.ace_css-in-js {
+  color: #fe9720;
+}
+
+.ace-monokai-reamke-pro .ace_level1 {
+  color: #00ffff !important;
+}
+
+.ace-monokai-reamke-pro .ace_level2 {
+  color: #ffd700 !important;
+}
+
+.ace-monokai-reamke-pro .ace_level3 {
+  color: #dc143c !important;
+}
+
+.ace-monokai-reamke-pro .ace_level4 {
+  color: #ae81ff !important;
+}
+
+.ace-monokai-reamke-pro .ace_level5 {
+  color: #1787f3 !important;
+}
+
+.ace-monokai-reamke-pro .ace_level6 {
+  color: #00ff00 !important;
+}

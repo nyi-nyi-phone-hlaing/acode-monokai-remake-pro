@@ -1,0 +1,15 @@
+{
+  "id": "acode.plugin.monokaiRemakePro",
+  "name": "Monokai Remake Pro",
+  "main": "dist/main.js",
+  "minVersionCode": 300,
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "Codelab MM",
+    "email": "nnph123725@gmail.com",
+    "github": "https://github.com/nyi-nyi-phone-hlaing"
+  }
+}
